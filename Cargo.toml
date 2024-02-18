@@ -8,13 +8,13 @@ repository = "https://github.com/librespot-org/librespot"
 edition = "2018"
 
 [dependencies.librespot-audio]
-path = "../audio"
+git = "https://github.com/DaBigBlob/librespot-audio"
 version = "0.4.2"
 [dependencies.librespot-core]
-path = "../core"
+git = "https://github.com/DaBigBlob/librespot-core"
 version = "0.4.2"
 [dependencies.librespot-metadata]
-path = "../metadata"
+git = "https://github.com/DaBigBlob/librespot-metadata"
 version = "0.4.2"
 
 [dependencies]
